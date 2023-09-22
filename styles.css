@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+#container{
+	margin:20px;
+	position:relative;
+}
+#container::after{
+	content: "After Content";
+	color: #f00;
+}
+#container::before{
+	content: "Before Content";
+	color: #f00;
+}
